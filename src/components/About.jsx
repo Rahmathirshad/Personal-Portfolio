@@ -27,15 +27,21 @@ const About = () => {
           <br></br>
           Looking forward to learning and collaborating with the best and brightest in this field!
         </p>
-
-        <p>Full Name: M.A Rahmath Irshad
+        <br></br>
+        <div className=" flex gap-32">
+          <p>Full Name: M.A Rahmath Irshad
+            <br></br>
+            <br></br>
+            Email: rahmathirshad@gmail.com
+          </p>
+          <p>
+            Degree: Computer Science And Engineering
+            <br></br>
+            <br></br>
+            Address: Hyderabad, Telangana, India-500052
+          </p>
           <br></br>
-          Degree: Computer Science And Engineering
-          <br></br>
-          Email: rahmathirshad@gmail.com
-          <br></br>
-          Address: Hyderabad, Telangana, India-500052
-        </p>
+        </div>
         <br></br>
         <Link to="contact" smooth duration={500} className=" bg-cyan-600 w-fit px-10 py-3 rounded-md cursor-pointer">Contact</Link>
       </div>

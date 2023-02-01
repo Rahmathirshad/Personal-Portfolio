@@ -29,7 +29,7 @@ const NavBar = () => {
   ];
 
   return (
-    <div className="flex justify-between items-center w-full h-20 px-20 text-white bg-stone-900/80 backdrop-blur fixed
+    <div className="flex justify-between items-center w-full h-20 px-10 text-white bg-stone-900/80 backdrop-blur fixed
     drop-shadow-[0px_7px_5px_rgba(8,145,178,0.1)]">
       <div>
         <Link to="home" smooth duration={500}>

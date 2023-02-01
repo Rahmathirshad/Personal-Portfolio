@@ -29,17 +29,19 @@ const NavBar = () => {
   ];
 
   return (
-    <div className="flex justify-between items-center w-full h-20 px-20 text-white bg-black fixed
-    drop-shadow-[0px_5px_7px_rgba(8,145,178,0.1)]">
+    <div className="flex justify-between items-center w-full h-20 px-20 text-white bg-stone-900/80 backdrop-blur fixed
+    drop-shadow-[0px_7px_5px_rgba(8,145,178,0.1)]">
       <div>
-        <h1 className="text-7xl font-signature">ri</h1>
+        <Link to="home" smooth duration={500}>
+          <h1 className="text-7xl text-slate-300 font-signature cursor-pointer hover:text-sky-400 hover:scale-110 duration-200">ri</h1>
+        </Link>
       </div>
 
       <ul className="hidden md:flex">
         {links.map(({ id, link }) => (
           <li
             key={id}
-            className="px-4 cursor-pointer capitalize font-semibold text-slate-500 hover:scale-105 hover:text-slate-300 duration-200"
+            className="px-4 cursor-pointer capitalize font-semibold text-slate-300 hover:scale-110 hover:text-sky-400 duration-200"
           >
             <Link to={link} smooth duration={500}>
               {link}
@@ -74,6 +76,7 @@ const NavBar = () => {
           ))}
         </ul>
       )}
+      <div></div>
     </div>
   );
 };

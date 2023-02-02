@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div
       name="about"
-      className="w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white"
+      className="w-full bg-gradient-to-b from-gray-800 to-black text-white lg:h-screen"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="lg:pb-8">
@@ -17,7 +17,7 @@ const About = () => {
         <p className="text-xl mt-5 lg:mt-20">
           <span className=" font-bold">Hi,</span> My name is <span className=" font-bold">Rahmath irshad.</span>
         </p>
-        <p className="text-xl">A self-taught Front-end Web Developer👨‍💻 based in Hyderabad, India.
+        <p className="text-x lg:text-xl">A self-taught Front-end Web Developer👨‍💻 based in Hyderabad, India.
           <br></br>
           <br></br>
           I'm highly passionate about designing and developing clean and user-centered interfaces.

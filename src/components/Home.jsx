@@ -2,14 +2,12 @@ import React from "react";
 //import HeroImage from "../assets/heroImage.png";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
-import About from "./About";
-import webdev from "../assets/portfolio/webdev.png"
+import webdev from "../assets/webdev.png"
 import SocMediaLinks2 from "./SocMediaLinks2";
 
 
 const Home = () => {
   return (
-    <div>
       <div
         name="home"
         className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800"
@@ -23,14 +21,15 @@ const Home = () => {
             <h2 className="text-4xl sm:text-7xl  text-white">
               IRSHAD
             </h2>
-            <p className="text-gray-500 text-2xl py-4 max-w-md">FRONT-END WEB DEVELOPER</p>
+            <p className="text-gray-500 text-2xl py-4 max-w-md">FRONT-END WEB DEVELOPER 👨‍💻</p>
 
             <div className="flex">
               <Link
                 to="projects"
                 smooth
                 duration={500}
-                className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer"
+                className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r
+                from-cyan-500 to-blue-500 cursor-pointer hover:scale-105 duration-500"
               >
                 Projects
                 <span className="group-hover:rotate-90 duration-300">
@@ -48,15 +47,13 @@ const Home = () => {
             <img
               src={webdev}
               alt="my profile"
-              className="max-h-96 md:w-full"
+              className="h-72 md:h-96"
             />
           </div>
         </div>
 
       </div>
 
-      <About />
-    </div>
   );
 };
 

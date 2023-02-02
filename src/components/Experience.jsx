@@ -1,57 +1,60 @@
 import React from "react";
-
 import html from "../assets/html.png";
 import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
 import reactImage from "../assets/react.png";
-import nextjs from "../assets/nextjs.png";
-import graphql from "../assets/graphql.png";
+import bootstrap from "../assets/bootstrap.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
+import git from "../assets/git.png";
+import npm from "../assets/npm.png";
+import vscode from "../assets/vscode.png";
+import photoshop from "../assets/photoshop.png";
+import netlify from "../assets/netlify.png";
 
 const Experience = () => {
   const techs = [
     {
       id: 1,
-      src: html,
-      title: "HTML",
-      style: "shadow-orange-500",
+      src: reactImage,
+      title: "React",
+      style: "shadow-sky-400",
     },
     {
       id: 2,
-      src: css,
-      title: "CSS",
-      style: "shadow-blue-500",
-    },
-    {
-      id: 3,
       src: javascript,
       title: "JavaScript",
       style: "shadow-yellow-500",
     },
     {
+      id: 3,
+      src: css,
+      title: "CSS",
+      style: "shadow-blue-500",
+    },
+    {
       id: 4,
-      src: reactImage,
-      title: "React",
-      style: "shadow-blue-600",
+      src: html,
+      title: "HTML",
+      style: "shadow-orange-400",
     },
     {
       id: 5,
       src: tailwind,
-      title: "Tailwind",
+      title: "Tailwind CSS",
       style: "shadow-sky-400",
     },
     {
       id: 6,
-      src: nextjs,
-      title: "Next JS",
-      style: "shadow-white",
+      src: bootstrap,
+      title: "Bootstrap",
+      style: "shadow-indigo-500/50",
     },
     {
       id: 7,
-      src: graphql,
-      title: "GraphQL",
-      style: "shadow-pink-400",
+      src: git,
+      title: "Git",
+      style: "shadow-orange-600",
     },
     {
       id: 8,
@@ -59,12 +62,36 @@ const Experience = () => {
       title: "GitHub",
       style: "shadow-gray-400",
     },
+    {
+      id: 9,
+      src: npm,
+      title: "Npm",
+      style: "shadow-red-500",
+    },
+    {
+      id: 10,
+      src: vscode,
+      title: "VS Code",
+      style: "shadow-blue-400",
+    },
+    {
+      id: 11,
+      src: netlify,
+      title: "Netlify",
+      style: "shadow-blue-300",
+    },
+    {
+      id: 12,
+      src: photoshop,
+      title: "Photoshop",
+      style: "shadow-blue-500",
+    },
   ];
 
   return (
     <div
       name="experience"
-      className="bg-gradient-to-b from-gray-800 to-black w-full h-screen"
+      className="bg-gradient-to-b from-gray-800 to-black w-full lg:h-screen"
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
         <div>
@@ -78,7 +105,7 @@ const Experience = () => {
           {techs.map(({ id, src, title, style }) => (
             <div
               key={id}
-              className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}
+              className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style} `}
             >
               <img src={src} alt="" className="w-20 mx-auto" />
               <p className="mt-4">{title}</p>

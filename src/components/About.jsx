@@ -8,16 +8,16 @@ const About = () => {
       className="w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
-        <div className="pb-8">
+        <div className="lg:pb-8">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
             About
           </p>
         </div>
 
-        <p className="text-xl mt-20">
+        <p className="text-xl mt-5 lg:mt-20">
           <span className=" font-bold">Hi,</span> My name is <span className=" font-bold">Rahmath irshad.</span>
         </p>
-        <p className="text-xl">A self-taught Front-end Developer👨‍💻 based in Hyderabad, India.
+        <p className="text-xl">A self-taught Front-end Web Developer👨‍💻 based in Hyderabad, India.
           <br></br>
           <br></br>
           I'm highly passionate about designing and developing clean and user-centered interfaces.
@@ -28,17 +28,24 @@ const About = () => {
           Looking forward to learning and collaborating with the best and brightest in this field!
         </p>
         <br></br>
-        <div className=" flex gap-32">
+        <div className="lg:flex gap-32">
           <p>Full Name: M.A Rahmath Irshad
             <br></br>
             <br></br>
-            Email: rahmathirshad@gmail.com
-          </p>
-          <p>
+            DOB: 07-September-1999
+            <br></br>
+            <br></br>
             Degree: Computer Science And Engineering
+          </p>
+          <br></br>
+          <p>
+            Address: Hyderabad, Telangana, India.
             <br></br>
             <br></br>
-            Address: Hyderabad, Telangana, India-500052
+            Email: rahmathirshad@gmail.com
+            <br></br>
+            <br></br>
+            Phone\whatsapp: +91 7097008647
           </p>
           <br></br>
         </div>

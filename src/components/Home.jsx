@@ -21,7 +21,7 @@ const Home = () => {
             <h2 className="text-4xl sm:text-7xl  text-white">
               IRSHAD
             </h2>
-            <p className="text-gray-500 text-2xl py-4 max-w-md">FRONT-END WEB DEVELOPER 👨‍💻</p>
+            <p className="text-gray-500 text-lg py-4 max-w-md md:text-2xl">FRONT-END WEB DEVELOPER 👨‍💻</p>
 
             <div className="flex">
               <Link

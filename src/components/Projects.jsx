@@ -57,12 +57,11 @@ const Projects = () => {
       name="projects"
       className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen"
     >
-      <div className="max-w-screen-lg p-8 mx-auto flex flex-col justify-center w-full h-full lg:p-24">
-        <div className="pb-2">
+      <div className="max-w-screen-lg p-8 mx-auto flex flex-col justify-center w-full h-full lg:p-20">
+        <div className="pb-6">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
             Projects
           </p>
-          <p className="py-6">Check out some of my work right here</p>
         </div>
 
         <div className="grid text-center sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">

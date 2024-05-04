@@ -17,21 +17,21 @@ const Contact = () => {
 
         <div className=" md:flex md:justify-between">
           <div className=" flex flex-col justify-evenly pb-4 sm:ite">
-            <div className="flex items-center">
+            <div className="flex items-center  pb-6 md:pb-0">
               <FaPhoneAlt size={40} className="mr-8 text-sky-400" />
               <div>
                 <h1 className="text-2xl">Phone</h1>
                 <a href="tel:+917097008647" className="text-xl font-medium">+91 7097008647</a>
               </div>
             </div>
-            <div className="flex items-center">
+            <div className="flex items-center pb-6 md:pb-0">
               <FaPhoneAlt size={40} className="mr-8 text-sky-400" />
               <div>
                 <h1 className="text-2xl ">E-Mail</h1>
                 <a href="mailto:rahmathirshad@gmail.com" className="text-xl font-medium">rahmathirshad@gmail.com</a>
               </div>
             </div>
-            <div className="flex items-center">
+            <div className="flex items-center  pb-6 md:pb-0">
               <FaPhoneAlt size={40} className="mr-8 text-sky-400" />
               <div>
                 <h1 className="text-2xl">Location</h1>

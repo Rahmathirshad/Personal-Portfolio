@@ -4,7 +4,6 @@ import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
 import webdev from "../assets/webdev.png"
 import SocMediaLinks2 from "./SocMediaLinks2";
-import { MdPhoneInTalk } from "react-icons/md";
 
 
 const Home = () => {

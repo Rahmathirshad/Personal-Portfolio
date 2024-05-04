@@ -1,5 +1,5 @@
 import React from "react";
-import personalportfolio from "../assets/portfolio/personal portfolio.jpg";
+import imdbClone from "../assets/portfolio/imdb-clone.png";
 import ecom from "../assets/portfolio/e-com.jpg";
 import facereco from "../assets/portfolio/face-reco.jpg";
 import robofriends from "../assets/portfolio/robo-friends.jpg";
@@ -10,24 +10,24 @@ const Projects = () => {
   const projectsList = [
     {
       id: 1,
+      name: "IMDb Clone",
+      src: imdbClone,
+      hrefLive: "https://imdbclonenext.netlify.app/",
+      hrefCode: "https://github.com/Rahmathirshad/IMDB-Clone",
+    },
+    {
+      id: 2,
       name: "E-Commerce Website",
       src: ecom,
       hrefLive: "https://ecom-estore.netlify.app/",
       hrefCode: "https://github.com/Rahmathirshad/E-Commerce---Website",
     },
     {
-      id: 2,
+      id: 3,
       name: "Face Recognition App",
       src: facereco,
       hrefLive: "https://aifacereco.netlify.app/",
       hrefCode: "https://github.com/Rahmathirshad/Face-Recognition-App",
-    },
-    {
-      id: 3,
-      name: "Personal Portfolio",
-      src: personalportfolio,
-      hrefLive: "https://rahmathirshad.netlify.app/",
-      hrefCode: "https://github.com/Rahmathirshad/Personal-Portfolio",
     },
     {
       id: 4,
@@ -55,13 +55,14 @@ const Projects = () => {
   return (
     <div
       name="projects"
-      className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen"
+      className="bg-gradient-to-b from-black to-gray-800 text-white md:pt-6"
     >
-      <div className="max-w-screen-lg p-8 mx-auto flex flex-col justify-center w-full h-full lg:p-20">
+      <div className="max-w-screen-lg p-8 mx-auto flex flex-col justify-center w-full lg:p-20">
         <div className="pb-6">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
             Projects
           </p>
+          <p className="py-6 font-semibold">Following are the projects that I have worked on</p>
         </div>
 
         <div className="grid text-center sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">

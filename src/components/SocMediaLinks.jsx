@@ -12,7 +12,7 @@ const SocMediaLinks = () => {
           LinkedIn <FaLinkedin size={30} />
         </>
       ),
-      href: "https://www.linkedin.com/in/rahmath-irshad-74781988/",
+      href: "https://www.linkedin.com/in/rahmathirshad/",
       style: "rounded-tr-md",
     },
     {

@@ -47,7 +47,7 @@ const Home = () => {
           <img
             src={webdev}
             alt="my profile"
-            className="h-72 md:h-96"
+            className="h-72 md:h-96 pb-3 sm:pb-0"
           />
         </div>
       </div>

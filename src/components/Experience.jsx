@@ -142,25 +142,27 @@ const Experience = () => {
               <h1><span className="font-bold text-sky-400 text-lg">Front-End Developer</span> - <span className="font-bold text-sky-400">LEGALE</span></h1>
               <p className="inline border-b-2 border-gray-500 text-sm pb-1">MAY 2023 - Present | Hyderabad, India</p>
               <ul className="list-disc mt-2">
-                <li>Lead the design and development of highly functional UI for
-                  web application and hybrid mobile application using React.JS
-                  and React Native
+                <li>Led the design and development of highly functional UI for
+                  web application and hybrid mobile application using
+                  React.JS, React Native, JavaScript ES6 and Redux Thunk for
+                  asynchronous RESTful API calls
                 </li>
                 <li>
-                  Implementing responsive user interface, reusable
-                  components and new features to solve business problems
+                  Implemented responsive UI, reusable components and new
+                  features to solve business problems
                 </li>
                 <li>
-                  Fixing bugs and optimizing the user experience
+                  Developed hybrid mobile app from scratch for IOS and
+                  Android, using React Native Expo
                 </li>
                 <li>
-                  Integrated user authentication system, payment gateway,
-                  multiple dashboards, server side data tables, complex forms,
-                  etc
+                  Integrated JWT authentication, payment gateway,
+                  upload/download files, multiple dashboards, server side data
+                  tables and pagination, complex forms, etc
                 </li>
                 <li>
-                  Successfully delivered first version of hybrid mobile
-                  application, built from scratch using React Native
+                  Managed to fix the bugs and optimized the user experience,
+                  resulting in improving application performance by 25%
                 </li>
               </ul>
             </div>

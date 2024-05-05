@@ -131,7 +131,7 @@ const Experience = () => {
             <p className="text-4xl font-bold inline border-b-4 border-gray-500">
               Work Experience
             </p>
-            <p className="py-6">I have total 1+ years of experience</p>
+            <p className="py-6">I have total 1+ years of hands on development experience</p>
           </div>
           <div class="timeline">
             <div class="timeline-empty"></div>

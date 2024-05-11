@@ -22,7 +22,7 @@ const Home = () => {
             IRSHAD
           </h2>
           <p className="text-gray-400 font-semibold text-lg py-4 max-w-md md:text-2xl">FRONT-END DEVELOPER 👨‍💻</p>
-          <p className="text-gray-400 text-sm max-w-md md:text-2xl">I Build Web & Hybrid Mobile Apps using <span className="font-semibold">React.js & React Native</span></p>
+          <p className="text-gray-400 text-sm max-w-md md:text-2xl">I build complex Web & Hybrid Mobile Apps leveraging <span className="font-semibold">React.js & React Native</span></p>
           <div className="flex lg:py-4">
             <Link
               to="experience"

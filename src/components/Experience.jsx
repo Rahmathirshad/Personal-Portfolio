@@ -11,7 +11,7 @@ const Experience = () => {
             <p className="text-4xl font-bold inline border-b-4 border-gray-500">
               Work Experience
             </p>
-            <p className="py-6">I have total 1+ years of hands on development experience</p>
+            <p className="py-6">I have total 1.3+ years of hands on development experience</p>
           </div>
           <div class="timeline">
             <div class="timeline-empty"></div>
@@ -22,37 +22,34 @@ const Experience = () => {
               <h1><span className="font-bold text-sky-400 text-lg">Front-End Developer</span> - <span className="font-bold text-sky-400">LEGALE</span></h1>
               <p className="inline border-b-2 border-gray-500 text-sm pb-1">MAY 2023 - Present | Hyderabad, India</p>
               <ul className="list-disc mt-2">
-                <li>Led the design and development of highly functional user
-                  interface for web and hybrid mobile application leveraging
-                  React.JS and React Native to solve business problems
+                <li>Developed highly functional user interface for web
+                application leveraging React.JS to solve business problems
                 </li>
                 <li>
-                  Played a key role in developing mobile app from scratch for
-                  Android and IOS, using React Native Expo
+                Solely designed and developed hybrid mobile application
+                from scratch using React Native
                 </li>
                 <li>
-                  Implemented scalable, high-speed, reusable components
-                  through AJAX technique and ES6+ programming leading to
-                  35% increase in user engagement
+                Implemented scalable, high-speed, reusable components
+                using ES6 concepts resulted in 35% code reduction
                 </li>
                 <li>
-                  Collaborated with back-end team to integrate RESTful APIs
-                  to collect JSON data, ensuring seamless data flow by
-                  reducing 15% time, used redux thunk to manage state
+                Collaborated with back-end team to integrate RESTful APIs to collect JSON data using axios, ensuring seamless data flow by reducing 15% time, used redux thunk for state management
                 </li>
                 <li>
-                  Implemented responsive and visually appealing UI to
-                  enhance the user experience using modern CSS frameworks
+                Integrated JWT authentication, upload/download files,
+multiple dashboards, server side data tables and
+pagination, complex forms, infinite scrolling, background
+and foreground services, data searching, etc
                 </li>
                 <li>
-                  Integrated JWT authentication, payment gateway,
-                  upload/download files, multiple dashboards, server side data
-                  tables and pagination, complex forms, etc
+                Implemented responsive and visually appealing UI to
+                enhance the user experience using modern CSS frameworks
                 </li>
                 <li>
-                  Performed rigorous testing to identify and fix the bugs
-                  using Chrome DevTools resulting in improving application
-                  performance by 25%
+                Performed rigorous testing to identify and fix the bugs
+using Chrome DevTools resulting in improving application
+performance by 25%
                 </li>
               </ul>
             </div>

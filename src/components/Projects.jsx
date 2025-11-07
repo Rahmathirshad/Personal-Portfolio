@@ -19,8 +19,8 @@ const Projects = () => {
       id: 2,
       name: "E-Commerce Website",
       src: ecom,
-      hrefLive: "https://ecom-estore.netlify.app/",
-      hrefCode: "https://github.com/Rahmathirshad/E-Commerce---Website",
+      hrefLive: "https://ecom-storee.netlify.app/",
+      hrefCode: "https://github.com/Rahmathirshad/e-commerce",
     },
     {
       id: 3,

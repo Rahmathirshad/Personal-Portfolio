@@ -5,6 +5,7 @@ import facereco from "../assets/portfolio/face-reco.jpg";
 import robofriends from "../assets/portfolio/robo-friends.jpg";
 import todos from "../assets/portfolio/todos.jpg";
 import filed from "../assets/portfolio/filed.jpg";
+import productFeedback from "../assets/portfolio/productFeedback.jpg";
 
 const Projects = () => {
   const projectsList = [

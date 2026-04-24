@@ -9,6 +9,13 @@ import filed from "../assets/portfolio/filed.jpg";
 const Projects = () => {
   const projectsList = [
     {
+      id: 0,
+      name: "Product Feedback",
+      src: productFeedback,
+      hrefLive: "https://product-feedback-appl.netlify.app/",
+      hrefCode: "https://github.com/Rahmathirshad/Product-Feedback-App",
+    },
+    {
       id: 1,
       name: "IMDb Clone",
       src: imdbClone,
